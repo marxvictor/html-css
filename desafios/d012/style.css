@@ -5,6 +5,7 @@
 
 * {
     margin: 0%;
+    padding: 0%;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     color: white;
     font-family: 'passion one', Helvetica, sans-serif;
     text-align: center;
-    padding: 40px;
+    padding: 50px;
 }
 
 header > h1 {
@@ -29,13 +30,44 @@ a:hover {
     text-decoration: underline;
 }
 
-div.paragrafo {
-    padding: 70px 30px;
+section {
     font-size: 3vmax;
+    padding: 10vh 30px;
+    line-height: 2em;
 }
 
-div.imagens {
-    ba
+section.normal {
+    background-color: white;
+}
+
+section.normal > p {
+    padding: 20px;
+}
+
+section.imagens {
+    background-color: gray;
+    box-shadow: inset 6px 6px 13px 6px rgba(0, 0, 0, 0.479);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagens > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.288);
+    display: inline-block;
+    padding: 10px;
+}
+
+section#img1 {
+    background-image: url('imagens/background001.jpg');
+    background-position: center right;
+    text-shadow: 2px 2px black;
+}
+
+section#img2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: center right;
+    text-shadow: 2px 2px black;
 }
 
 p {
