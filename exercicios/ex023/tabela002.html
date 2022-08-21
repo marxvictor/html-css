@@ -15,6 +15,10 @@
             border-collapse: collapse;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: gray;
+        }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
@@ -34,6 +38,12 @@
         thead {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         tfoot {
