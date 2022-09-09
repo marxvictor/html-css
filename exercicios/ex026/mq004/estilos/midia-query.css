@@ -19,10 +19,6 @@
         color: black;
     }
 
-    main::after {
-        
-    }
-
     img#phone{display: none;}
     img#tablet{display: none;}
     img#print{display: block;}
